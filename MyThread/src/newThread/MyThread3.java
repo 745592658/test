@@ -1,4 +1,4 @@
-package newThread;
+﻿package newThread;
 
 public class MyThread3 implements Runnable {
 
@@ -8,7 +8,7 @@ public class MyThread3 implements Runnable {
 				System.out.println(Thread.currentThread().getName() + "到达终点！");
 			} else {
 				System.out.println(Thread.currentThread().getName() + "爬完100米！");
-			}
+			 }
 		}
 	}
 }
