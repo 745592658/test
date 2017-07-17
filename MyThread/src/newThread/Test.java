@@ -51,7 +51,7 @@ public class Test {
 		for (int i = 1; i <= 4; i++) {
 			Thread t=new Thread(m1,i+"号选手");
 			t.start();
-		}*/
+		 }*/
 		MyThread7 m1 = new MyThread7();
 		Thread t1 = new Thread(m1, "邓兵");
 		Thread t2 = new Thread(m1, "黄宇");
